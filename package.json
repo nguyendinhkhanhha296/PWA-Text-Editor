@@ -1,7 +1,6 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
@@ -12,7 +11,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
+  "author": "khanh ha",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -21,5 +20,14 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyendinhkhanhha296/text-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyendinhkhanhha296/text-editor/issues"
+  },
+  "homepage": "https://github.com/nguyendinhkhanhha296/text-editor#readme",
+  "description": ""
 }
