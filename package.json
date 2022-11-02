@@ -6,7 +6,7 @@
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server node server.js --ignore client",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run heroku-postbuild",
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
@@ -27,12 +27,14 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
-    "webpack-pwa-manifest": "^4.3.0"
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.5.4"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nguyendinhkhanhha296/text-editor.git",
-    "@storybook/manager-webpack5/html-webpack-plugin": "^5.0.0"
+    "@storybook/manager-webpack5/html-webpack-plugin": "^5.0.0",
+    "@storybook/manager-webpack5/workbox-webpack-plugin": "^6.5.4"
   },
   "bugs": {
     "url": "https://github.com/nguyendinhkhanhha296/text-editor/issues"
