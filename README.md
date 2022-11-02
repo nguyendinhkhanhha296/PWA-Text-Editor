@@ -1,14 +1,18 @@
-<h1 align="center">Social Network API</h1>
+<h1 align="center">Text Editor</h1>
    
    
 ## Description
   
 🔍 A text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. 
   
-💻 Below is the screenshot showing the functionality of the application:
-  
-  
-  
+## Screenshot
+
+![Screenshot]()
+
+## Deployed App
+
+:atom_symbol: [Heroku App]()
+        
 ## User Story
   
 ```
