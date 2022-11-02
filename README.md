@@ -7,11 +7,21 @@
   
 ## Screenshot
 
-![Screenshot]()
+The app can be installed as a PWA on your device (mobile or desktop) by tapping the install button at the top left or the install button in the browser in the URL bar.
+![Screenshot](./assets/Screen%20Shot%202022-11-01%20at%2010.21.39%20PM.png)
+
+The app works offline.
+![Screenshot](./assets/Screen%20Shot%202022-11-01%20at%2010.18.42%20PM.png)
+
+
+Using devtools, you can see both the Service Worker in action, along with a loaded Manifest.
+![Screenshot](./assets/Screen%20Shot%202022-11-01%20at%2010.19.26%20PM.png)
+
+![Screenshot](./assets/Screen%20Shot%202022-11-01%20at%2010.20.21%20PM.png)
 
 ## Deployed App
 
-:atom_symbol: [Heroku App]()
+:atom_symbol: [Heroku App](https://ha-text-editor.herokuapp.com/)
         
 ## User Story
   
