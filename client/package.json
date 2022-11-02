@@ -2,7 +2,7 @@
   "name": "jate",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
+    "build": "webpack -p --config ./webpack.prod.config.js --progress",
     "start": "webpack --watch",
     "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
